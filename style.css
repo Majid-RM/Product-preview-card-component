@@ -27,7 +27,7 @@ body {
   margin: 30px 15px;
 }
 .container-card .image-content {
-  background-image: url(/images/image-product-mobile.jpg);
+  background-image: url(../images/image-product-mobile.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
