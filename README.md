@@ -18,6 +18,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
+- Live Site URL: [Live Site at Vercel](https://majid-rm.github.io/Product-preview-card-component/)
+
 ## My process
 
 ### Built with
