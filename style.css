@@ -25,7 +25,7 @@ body {
     grid-template-rows: auto 1fr;
     width: 344px;
     height: 600px;
-    margin: 30px 15px;
+    margin: 60px auto;
   }
   .img-mobile {
     border-top-left-radius: 10px;
