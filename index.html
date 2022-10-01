@@ -25,49 +25,46 @@
 </head>
 <html lang="en">
   <body>
-    <div class="container-card">
+    <main class="container-card">
       <!-- Section Image -->
-      <main>
-        <div class="image-content">
-          <img
-            class="img-desktop"
-            src="images/image-product-desktop.jpg"
-            alt="Image Product Desktop"
-          />
-          <img
-            class="img-mobile"
-            src="images/image-product-mobile.jpg"
-            alt="Image Product Mobile"
-          />
+      <picture class="image-content">
+        <source
+          media="(max-width:767px)"
+          srcset="./images/image-product-mobile.jpg"
+        />
+        <img
+          src="./images/image-product-desktop.jpg"
+          alt="Gabrielle Parfum"
+          style="width: 100%"
+        />
+      </picture>
+      <!-- Section Content -->
+      <div class="box-content">
+        <div class="top-content">
+          <h5>Perfume</h5>
+          <h1>Gabrielle Essence Eau De Parfum</h1>
         </div>
-        <!-- Section Content -->
-        <div class="box-content">
-          <div class="top-content">
-            <h5>Perfume</h5>
-            <h1>Gabrielle Essence Eau De Parfum</h1>
-          </div>
-          <div class="paragraph">
-            <p>
-              A floral, solar and voluptuous interpretation composed by Olivier
-              Polge, Perfumer-Creator for the House of CHANEL.
-            </p>
-          </div>
-          <div class="amount">
-            <div class="price">
-              <p>$149.99</p>
-            </div>
-            <div class="strikethrough">
-              <p>$169.99</p>
-            </div>
-          </div>
-          <button class="btn">
-            <a href="#">
-              <i class="fa-solid fa-cart-shopping"></i>
-              <p>Add To Cart</p>
-            </a>
-          </button>
+        <div class="paragraph">
+          <p>
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
         </div>
-      </main>
-    </div>
+        <div class="amount">
+          <div class="price">
+            <p>$149.99</p>
+          </div>
+          <div class="strikethrough">
+            <p>$169.99</p>
+          </div>
+        </div>
+        <button class="btn">
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p>Add To Cart</p>
+          </a>
+        </button>
+      </div>
+    </main>
   </body>
 </html>
